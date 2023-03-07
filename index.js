@@ -2,9 +2,11 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
+const Product = require('./models/product');
+
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/shopApp', { useNewUrlParser: true })
+mongoose.connect('mongodb://127.0.0.1:27017/storeApp', { useNewUrlParser: true })
     .then(() => {
         console.log(' MONGO CONNECTION OPEN!')
     })
