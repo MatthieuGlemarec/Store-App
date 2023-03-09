@@ -64,11 +64,11 @@ mongoose.connect('mongodb://127.0.0.1:27017/storeApp', { useNewUrlParser: true }
 //         console.log(err)
 //     })
 
-Product.deleteOne({ _id: '640884098e73a7de10d4a908' })
-    .then(res => {
-        console.log(res)
-    })
-    .catch(err => {
-        console.log(err)
-    })
+// Product.deleteOne({ _id: '640884098e73a7de10d4a908' })
+//     .then(res => {
+//         console.log(res)
+//     })
+//     .catch(err => {
+//         console.log(err)
+//     })
 
