@@ -14,7 +14,7 @@
         <label for="name">Product Name</label>
         <input type="text" name="name" id="name" placeholder="Product Name">
         <label for="price">Unit Price</label>
-        <input type="number" name="price" id="price" placeholder="Price">
+        <input type="number" step=".01" name="price" id="price" placeholder="Price">
         <label for="category">Category</label>
         <select name="category" id="category">
             <% for(let category of categories){ %>
@@ -25,7 +25,8 @@
         </select>
         <button>Submit</button>
     </form>
-    <a href="/products">Back</a>
+    <a href="/products">All Products</a>
+
 
 </body>
 
